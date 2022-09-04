@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Youtube Video Saver</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="stylesheet" href="yt_video_saver.css"/>
+</head>
+<body>
+    <img id="logo" src="https://static.vecteezy.com/system/resources/previews/003/206/623/original/youtube-editorial-app-icon-free-vector.jpg">
+    <h1>Video Saver</h1>
+        <div class="container">
+            <form id="video-form">
+                <div>
+                    <lable for="title">Title</lable>
+                    <input type="text" id="title" class="u-full-width">
+                </div>
+                <div>
+                    <lable for="creator">Creator</lable>
+                    <input type="text" id="creator" class="u-full-width">
+                </div>
+                <div>
+                    <lable for="link">Link</lable>
+                    <input type="url" id="link" class="u-full-width">
+                </div>
+            <div>
+                <input type="submit" value="submit" class="u-full-width">
+            </div>
+        </form>
+
+        <table class="u-full-width">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Creator</th>
+                        <th>Link</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            <tbody id="video-list">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="yt_video_saver.js"></script>
+</body>
+</html>
